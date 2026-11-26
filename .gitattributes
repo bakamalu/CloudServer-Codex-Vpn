@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+*.sh    text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+
+# 无扩展名的包装脚本也要 LF
+scripts/codex-wrapper.sh text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.gz    binary

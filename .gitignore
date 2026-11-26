@@ -1,0 +1,26 @@
+# 凭据与生成物，永不入库
+*.log
+*.bak
+.env
+.env.*
+subscription.url
+subscription.txt
+sub.yaml
+sub.yaml.new
+config.yaml
+auth.json
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地临时
+*.local
+tmp/
